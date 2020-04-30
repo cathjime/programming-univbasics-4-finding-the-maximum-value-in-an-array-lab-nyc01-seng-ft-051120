@@ -1,9 +1,9 @@
 def find_max_value(array)
   # Add your solution here
   count = 0 
+  max = -1
   
   while count < array.length do
-    max = -1
     if array[count] > max 
       max = array[count]
     end 
